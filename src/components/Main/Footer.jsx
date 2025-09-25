@@ -13,9 +13,9 @@ const Footer = () => {
     <div>
       <section className="bg-[#081A3A] md:grid md:place-content-center">
         <div class="mx-auto w-full max-w-screen-4xl overflow-hidden">
-          <div className="px-12 py-16 gap-5 sm:px-12 sm:py-14 lg:px-16 lg:py-16 flex flex-row justify-evenly w-screen text-white ">
+          <div className="px-12 py-16 gap-8 sm:gap-5 sm:px-12 sm:py-14 lg:px-16 lg:py-16 flex flex-col sm:flex-row justify-evenly w-screen text-white text-nowrap ">
             <div className="flex flex-col space-y-3">
-              <div className="font-semibold text-base border-b-2 border-orange-700 pb-3">
+              <div className="font-semibold border-b-2 border-orange-700 pb-3">
                 PRODUK KAMI
               </div>
               <a href="/">Perlengkapan Autocare</a>
@@ -27,7 +27,7 @@ const Footer = () => {
               <a href="/">Koleksi Microfiber</a>
             </div>
             <div className="flex flex-col space-y-3">
-              <div className="font-semibold text-base border-b-2 border-orange-700 pb-3">
+              <div className="font-semibold border-b-2 border-orange-700 pb-3">
                 TENTANG OMPRO
               </div>
               <a href="/">Sejarah Company</a>
@@ -36,7 +36,7 @@ const Footer = () => {
               <a href="/">Koleksi Produk</a>
             </div>
             <div className="flex flex-col space-y-3">
-              <div className="font-semibold text-base border-b-2 border-orange-700 pb-3">
+              <div className="font-semibold border-b-2 border-orange-700 pb-3">
                 TEMUKAN PRODUK KAMI DI:
               </div>
               <div className="flex flex-row space-x-5">
@@ -67,9 +67,9 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="px-12 py-3 gap-5 sm:px-12 lg:px-16 bg-[#002855] text-white text-sm flex flex-row justify-between">
+          <div className="px-12 py-3 gap-5 sm:px-12 lg:px-16 bg-[#002855] text-white text-sm flex flex-row justify-center sm:justify-between items-center">
             <div>Ompro Autocare © 2025 All Right Reserved</div>
-            <div className=" flex items-center space-x-2">
+            <div className="hidden sm:flex items-center space-x-2">
               <div>Follow us: </div>
               <a href="/">
                 <img src={Yt} alt="Youtube" className="w-7" />
