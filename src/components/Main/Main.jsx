@@ -68,7 +68,9 @@ const Main = () => {
             href="/"
             className="px-4 py-2 flex items-center justify-center gap-2 outline outline-blue-500 w-fit rounded-sm"
           >
-            <div className="text-sm md:text-base">Cek Produk Lainnya</div>
+            <a href="/product" className="text-sm md:text-base">
+              Cek Produk Lainnya
+            </a>
             <img src={Arrow} alt="arrow" className="size-4" />
           </a>
         </div>
