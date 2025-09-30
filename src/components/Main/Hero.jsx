@@ -36,7 +36,7 @@ const Hero = () => {
           <img
             src={OmproHero}
             alt="OmproHero"
-            className="overflow-hidden w-full h-full object-cover object-top"
+            className="hidden sm:flex overflow-hidden w-full h-full object-cover object-top"
           />
         </div>
       </div>
