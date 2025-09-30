@@ -8,16 +8,16 @@ const OtherProduct = () => {
   return (
     <section class="bg-[#FFF9ED] md:grid md:place-content-center h-full">
       <div class="mx-auto w-full max-w-screen-4xl overflow-hidden">
-        <div className="px-12 py-16 gap-5 sm:px-12 sm:py-14 lg:px-16 lg:py-16 flex flex-col items-center justify-center">
+        <div className="px-10 py-10 gap-5 sm:px-12 sm:py-14 lg:px-16 lg:py-16 flex flex-col items-center justify-center">
           <div className="flex flex-col gap-2 items-center">
-            <div className="text-3xl md:text-4xl text-center font-bold text-indigo-800">
+            <div className="text-2xl md:text-4xl text-center font-bold text-indigo-800">
               Produk Kami
             </div>
-            <div className="text-lg md:text-xl text-center font-semibold">
+            <div className="text-sm md:text-md text-center font-semibold">
               Temukan Produk Kebutuhanmu Disini !
             </div>
           </div>
-          <div className="w-full mt-5">
+          <div className="w-full mt-2 md:mt-5">
             <Swiper
               modules={[Autoplay, Pagination]}
               spaceBetween={20}

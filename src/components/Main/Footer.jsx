@@ -13,8 +13,8 @@ const Footer = () => {
     <div>
       <section className="bg-[#081A3A] md:grid md:place-content-center">
         <div class="mx-auto w-full max-w-screen-4xl overflow-hidden">
-          <div className="w-screen px-16 sm:px-12 lg:px-16 space-y-5">
-            <div className="py-12 gap-8 sm:gap-5 sm:py-14  lg:py-16 flex flex-col sm:flex-row justify-evenly text-white text-nowrap">
+          <div className="w-screen px-10 sm:px-12 lg:px-16 space-y-5">
+            <div className="py-10 gap-8 sm:gap-5 sm:py-14 lg:py-16 flex flex-col sm:flex-row justify-evenly text-white text-nowrap">
               <div className="flex flex-col space-y-3">
                 <div className="font-semibold border-b-2 border-orange-700 pb-3">
                   PRODUK KAMI
@@ -79,7 +79,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="px-12 py-3 gap-5 sm:px-12 lg:px-16 bg-[#002855] text-white text-sm flex flex-row justify-center sm:justify-between items-center">
+          <div className="px-10 py-3 gap-5 sm:px-12 lg:px-16 bg-[#002855] text-white text-sm flex flex-row justify-center sm:justify-between items-center">
             <div>Ompro Autocare © 2025 All Right Reserved</div>
             <div className="hidden sm:flex items-center space-x-2">
               <div>Follow us: </div>
