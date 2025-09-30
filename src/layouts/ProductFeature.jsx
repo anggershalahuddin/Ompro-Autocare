@@ -17,8 +17,8 @@ const ProductFeature = () => {
                 memastikan kendaraan Anda tetap terlihat baru lebih lama.
               </div>
             </div>
-            <div className="flex flex-col md:flex-row justify-evenly items-center gap-5 px-24 mt-5 border border-black">
-              <div className="w-full md:w-[40%] h-full shadow-sm transition hover:shadow-lg rounded-lg overflow-hidden">
+            <div className="flex flex-col md:flex-row justify-evenly items-center gap-5 px-16 md:px-24 mt-5 border border-black">
+              <div className="w-full h-full shadow-sm transition hover:shadow-lg rounded-lg overflow-hidden">
                 <img
                   alt=""
                   src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
@@ -35,7 +35,7 @@ const ProductFeature = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-full md:w-[40%] h-full shadow-sm transition hover:shadow-lg rounded-lg overflow-hidden">
+              <div className="w-full h-full shadow-sm transition hover:shadow-lg rounded-lg overflow-hidden">
                 <img
                   alt=""
                   src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
@@ -52,7 +52,7 @@ const ProductFeature = () => {
                   </p>
                 </div>
               </div>
-              <div className="w-full md:w-[40%] h-full shadow-sm transition hover:shadow-lg rounded-lg overflow-hidden">
+              <div className="w-full h-full shadow-sm transition hover:shadow-lg rounded-lg overflow-hidden">
                 <img
                   alt=""
                   src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
