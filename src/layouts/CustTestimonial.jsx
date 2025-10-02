@@ -13,7 +13,7 @@ const CustTestimonial = () => {
         <div className="text-2xl md:text-4xl text-center font-bold text-blue-900 mb-6 md:mb-10">
           Produk Kami <span className="text-orange-600">Tersedia di</span>
         </div>
-        <div className="grid grid-cols-2 gap-y-5 md:flex md:flex-row items-center justify-center mb-14 md:mb-20 md:gap-20">
+        <div className="flex gap-4 flex-row items-center justify-center mb-14 md:mb-20 md:gap-20">
           {/* WADAH UTAMA:
       - grid grid-cols-2: Default (mobile) menjadi 2 kolom.
       - gap-x-10 gap-y-5: Mengatur jarak antar item untuk tampilan grid.
@@ -26,7 +26,7 @@ const CustTestimonial = () => {
             href="https://www.tokopedia.com/ompro-auto-care"
             className="transition-all hover:scale-110"
           >
-            <div className="flex items-center justify-center p-2 bg-gray-200 rounded-xl w-20 h-20 shadow-sm shadow-gray-700 border-2 border-blue-900 mx-auto">
+            <div className="flex items-center justify-center p-2 bg-gray-200 rounded-xl w-14 h-14 md:w-20 md:h-20  shadow-sm shadow-gray-700 border-2 border-blue-900 mx-auto">
               <img src={Tokopedia} alt="Tokopedia" className="scale-100" />
             </div>
           </a>
@@ -36,7 +36,7 @@ const CustTestimonial = () => {
             href="https://shopee.co.id/ompro_auto_care"
             className="transition-all hover:scale-110"
           >
-            <div className="flex items-center justify-center p-2 bg-gray-200 rounded-xl w-20 h-20 shadow-sm shadow-gray-700 border-2 border-blue-900 mx-auto">
+            <div className="flex items-center justify-center p-2 bg-gray-200 rounded-xl w-14 h-14 md:w-20 md:h-20  shadow-sm shadow-gray-700 border-2 border-blue-900 mx-auto">
               <img src={Shopee} alt="Shopee" className="scale-75" />
             </div>
           </a>
@@ -46,7 +46,7 @@ const CustTestimonial = () => {
             href="https://www.lazada.co.id/shop/ompro-autocare"
             className="transition-all hover:scale-110"
           >
-            <div className="flex items-center justify-center p-2 bg-gray-200 rounded-xl w-20 h-20 shadow-sm shadow-gray-700 border-2 border-blue-900 mx-auto">
+            <div className="flex items-center justify-center p-2 bg-gray-200 rounded-xl w-14 h-14 md:w-20 md:h-20  shadow-sm shadow-gray-700 border-2 border-blue-900 mx-auto">
               <img src={Lazada} alt="Lazada" className="scale-100" />
             </div>
           </a>
@@ -56,7 +56,7 @@ const CustTestimonial = () => {
             href="https://www.tiktok.com/@ompro_autocare"
             className="transition-all hover:scale-110"
           >
-            <div className="flex items-center justify-center p-2 bg-gray-200 rounded-xl w-20 h-20 shadow-sm shadow-gray-700 border-2 border-blue-900 mx-auto">
+            <div className="flex items-center justify-center p-2 bg-gray-200 rounded-xl w-14 h-14 md:w-20 md:h-20  shadow-sm shadow-gray-700 border-2 border-blue-900 mx-auto">
               <img src={Tiktok} alt="Tiktok" className="scale-75" />
             </div>
           </a>
