@@ -61,14 +61,14 @@ const CustTestimonial = () => {
             </div>
           </a>
         </div>
-        <div className="text-2xl md:text-4xl font-bold text-indigo-800 text-center mb-3">
+        <div className="text-2xl md:text-4xl font-bold text-indigo-800 text-center mb-2 md:mb-3">
           Testimonial Pelanggan
         </div>
         <div className="text-xl md:text-2xl font-semibold text-center mb-5">
           Apa kata mereka tentang{" "}
           <span className="text-orange-600 font-bold">OMPRO AUTOCARE</span>
         </div>
-        <div className="px-10 md:px-20 gap-5 flex flex-col md:flex-row items-stretch justify-evenly">
+        <div className="md:px-20 gap-5 flex flex-col md:flex-row items-stretch justify-evenly border border-black">
           {/* Div utama diubah dari items-center ke items-stretch (atau biarkan default, tapi lebih aman items-stretch)
       Saya hapus border-black di sini. */}
 
