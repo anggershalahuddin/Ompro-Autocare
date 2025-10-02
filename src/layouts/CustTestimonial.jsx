@@ -68,7 +68,7 @@ const CustTestimonial = () => {
           Apa kata mereka tentang{" "}
           <span className="text-orange-600 font-bold">OMPRO AUTOCARE</span>
         </div>
-        <div className="md:px-20 gap-5 flex flex-col md:flex-row items-stretch justify-evenly border border-black">
+        <div className="md:px-20 gap-5 flex flex-col md:flex-row items-stretch justify-evenly">
           {/* Div utama diubah dari items-center ke items-stretch (atau biarkan default, tapi lebih aman items-stretch)
       Saya hapus border-black di sini. */}
 
