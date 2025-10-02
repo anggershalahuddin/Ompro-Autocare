@@ -14,7 +14,7 @@ const Hero = () => {
               <h1 className="text-4xl font-bold sm:text-5xl text-shadow-lg shadow-black custom-text-shadow">
                 Perawatan Kendaran
                 <strong className="text-orange-400"> Premium </strong>
-                 untuk Performa Optimal
+                untuk Performa Optimal
               </h1>
               <h3 className="font-medium text-base text-pretty sm:text-lg/relaxed custom-text-shadow">
                 <strong className="text-orange-400 custom-text-shadow">

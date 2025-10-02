@@ -67,7 +67,7 @@ const OtherProduct = () => {
 
           <a
             href="/"
-            className="px-4 py-2 flex items-center justify-center gap-2 outline outline-blue-500 w-fit rounded-sm"
+            className="px-4 py-2 flex items-center justify-center gap-2 outline outline-blue-900 w-fit rounded-sm"
           >
             <a href="/product" className="text-sm md:text-base">
               Cek Produk Lainnya
