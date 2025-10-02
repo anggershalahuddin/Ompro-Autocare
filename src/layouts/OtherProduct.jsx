@@ -13,7 +13,7 @@ const OtherProduct = () => {
             <div className="text-2xl md:text-4xl text-center font-bold text-indigo-800">
               Produk Kami
             </div>
-            <div className="text-sm md:text-md text-center font-semibold">
+            <div className="text-sm md:text-2xl text-center font-semibold">
               Temukan Produk Kebutuhanmu Disini !
             </div>
           </div>
@@ -69,7 +69,7 @@ const OtherProduct = () => {
             href="/"
             className="px-4 py-2 flex items-center justify-center gap-2 outline outline-blue-900 w-fit rounded-sm"
           >
-            <a href="/product" className="text-sm md:text-base">
+            <a href="/product" className="text-sm md:text-base ">
               Cek Produk Lainnya
             </a>
             <img src={Arrow} alt="arrow" className="size-4" />

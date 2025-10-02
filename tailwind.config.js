@@ -12,12 +12,6 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/public/img/Ompro-Hero.jpg')",
       },
-      textShadow: {
-        sm: "0 1px 2px var(--tw-shadow-color)", // Bayangan kecil
-        DEFAULT: "0 2px 4px var(--tw-shadow-color)", // Bayangan default
-        lg: "0 8px 16px var(--tw-shadow-color)", // Bayangan besar
-        none: "none",
-      },
     },
   },
   plugins: [

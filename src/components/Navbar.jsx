@@ -29,7 +29,7 @@ const Navbar = () => {
             </svg>
           </button>
           <div className="hidden lg:flex flex-row justify-end space-x-16 font-medium text-sm ">
-            <a href="/">Produk Kami</a>
+            <a href="/">Beranda</a>
             <a href="/product">Produk Kami</a>
             <a href="/article">Artikel</a>
             <a href="/about">Tentang Kami</a>
