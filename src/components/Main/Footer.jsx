@@ -68,7 +68,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="py-2 sm:py-4 lg:py-6 text-white border-t-2 border-orange-700 text-justify">
+            <div className="py-2 sm:py-4 lg:py-6 text-white border-t-2 border-orange-700 text-justify text-xs md:text-sm">
               OMPRO AUTOCARE adalah layanan terbaik untuk pengkilatan dan
               pembersihan kendaraan di Indonesia, menawarkan berbagai layanan
               detailing berkualitas seperti pembersihan interior, pengkilatan
