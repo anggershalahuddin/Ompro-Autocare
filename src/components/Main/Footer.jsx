@@ -19,22 +19,44 @@ const Footer = () => {
                 <div className="font-semibold border-b-2 border-orange-700 pb-3">
                   PRODUK KAMI
                 </div>
-                <a href="/">Perlengkapan Autocare</a>
-                <a href="/">Perawatan Interior</a>
-                <a href="/">Perawatan Eksterior</a>
-                <a href="/">Perawatan Ban</a>
-                <a href="/">Cuci Kendaraan</a>
-                <a href="/">Koleksi Sponges</a>
-                <a href="/">Koleksi Microfiber</a>
+                <a href="/" className="text-xs md:text-base">
+                  Perlengkapan Autocare
+                </a>
+                <a href="/" className="text-xs md:text-base">
+                  Perawatan Interior
+                </a>
+                <a href="/" className="text-xs md:text-base">
+                  Perawatan Eksterior
+                </a>
+                <a href="/" className="text-xs md:text-base">
+                  Perawatan Ban
+                </a>
+                <a href="/" className="text-xs md:text-base">
+                  Cuci Kendaraan
+                </a>
+                <a href="/" className="text-xs md:text-base">
+                  Koleksi Sponges
+                </a>
+                <a href="/" className="text-xs md:text-base">
+                  Koleksi Microfiber
+                </a>
               </div>
               <div className="flex flex-col space-y-3">
                 <div className="font-semibold border-b-2 border-orange-700 pb-3">
                   TENTANG OMPRO
                 </div>
-                <a href="/">Sejarah Company</a>
-                <a href="/">Artikel</a>
-                <a href="/">Temukan Kami di</a>
-                <a href="/">Koleksi Produk</a>
+                <a href="/" className="text-xs md:text-base">
+                  Sejarah Company
+                </a>
+                <a href="/" className="text-xs md:text-base">
+                  Artikel
+                </a>
+                <a href="/" className="text-xs md:text-base">
+                  Temukan Kami di
+                </a>
+                <a href="/" className="text-xs md:text-base">
+                  Koleksi Produk
+                </a>
               </div>
               <div className="flex flex-col space-y-3">
                 <div className="font-semibold border-b-2 border-orange-700 pb-3">
@@ -79,7 +101,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="px-10 py-3 gap-5 sm:px-12 lg:px-16 bg-[#002855] text-white text-sm flex flex-row justify-center sm:justify-between items-center">
+          <div className="text-xs md:text-sm px-10 py-3 gap-5 sm:px-12 lg:px-16 bg-[#002855] text-white flex flex-row justify-center sm:justify-between items-center">
             <div>Ompro Autocare © 2025 All Right Reserved</div>
             <div className="hidden sm:flex items-center space-x-2">
               <div>Follow us: </div>
