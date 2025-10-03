@@ -1,14 +1,15 @@
 import React from "react";
-import { articles } from "../utils/articles";
+// import { articles } from "../utils/articles";
+import { productList } from "../utils/productList";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import Arrow from "../assets/icon/arrow.svg";
 
 const OtherProduct = () => {
   return (
-    <section class="bg-[#FFF9ED] md:grid md:place-content-center h-full">
-      <div class="mx-auto w-full max-w-screen-4xl overflow-hidden">
-        <div className="px-10 py-10 gap-5 sm:px-12 sm:py-14 lg:px-16 lg:py-16 flex flex-col items-center justify-center">
+    <section class="bg-[#FFF9ED] md:grid md:place-content-center h-full w-full">
+      <div class="mx-auto w-screen max-w-screen-4xl overflow-hidden">
+        <div className="px-16 py-10 gap-5 sm:px-16 sm:py-14 lg:px-24 lg:py-16 flex flex-col items-center justify-center w-full">
           <div className="flex flex-col gap-2 items-center">
             <div className="text-2xl md:text-4xl text-center font-bold text-indigo-800">
               Produk Kami
@@ -17,12 +18,11 @@ const OtherProduct = () => {
               Temukan Produk Kebutuhanmu Disini !
             </div>
           </div>
-          <div className="w-full mt-2 md:mt-5">
+          <div className="w-full mt-2 md:mt-5 items-center justify-center">
             <Swiper
               modules={[Autoplay, Pagination]}
               spaceBetween={20}
               slidesPerView={1}
-              anima
               autoplay={{
                 delay: 5000,
                 disableOnInteraction: false,
@@ -35,31 +35,31 @@ const OtherProduct = () => {
                 1280: { slidesPerView: 4 },
               }}
             >
-              {articles.map((article) => (
-                <SwiperSlide key={article.id} className="pb-8 md:pb-12">
-                  <article className="overflow-hidden rounded-lg shadow-md transition-transform hover:shadow-lg hover:scale-95 h-full bg-white">
+              {productList.map((product) => (
+                <SwiperSlide key={product.id} className="pb-8 md:pb-12">
+                  <div className="overflow-hidden rounded-lg shadow-md transition-transform hover:shadow-lg hover:scale-95 h-full bg-white">
                     <img
-                      alt={article.title}
-                      src={article.image}
-                      className="h-56 w-full object-cover"
+                      alt={product.title}
+                      src={product.image}
+                      className="h-full w-full object-cover"
                     />
                     <div className="p-4 sm:p-6">
                       <time
-                        dateTime={article.date}
+                        dateTime={product.date}
                         className="block text-xs font-medium text-red-700"
                       >
-                        {article.date}
+                        {product.date}
                       </time>
                       <a href="/">
                         <h3 className="mt-0.5 text-lg text-gray-900 font-semibold">
-                          {article.title}
+                          {product.title}
                         </h3>
                       </a>
                       <p className="mt-2 line-clamp-3 text-sm/relaxed">
-                        {article.description.substring(0, 80) + "..."}
+                        {product.description.substring(0, 80) + "..."}
                       </p>
                     </div>
-                  </article>
+                  </div>
                 </SwiperSlide>
               ))}
             </Swiper>
