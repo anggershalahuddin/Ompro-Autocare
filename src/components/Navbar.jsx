@@ -60,31 +60,31 @@ const Navbar = () => {
               absolute top-full right-0 w-full 
               bg-blue-800 lg:p-0 
               lg:static lg:bg-transparent lg:flex 
-              lg:flex-row lg:justify-end lg:space-x-16 font-medium text-sm
+              lg:flex-row lg:justify-end font-medium text-sm
             `}
           >
             {/* Navigasi Links */}
             <a
               href="/"
-              className="block p-4 py-2 lg:py-0 text-white hover:bg-blue-400"
+              className="block p-4 py-2 lg:py-0 text-white hover:bg-blue-400 lg:hover:bg-transparent"
             >
               Beranda
             </a>
             <a
               href="/product"
-              className="block p-4 py-2 lg:py-0 text-white hover:bg-blue-400"
+              className="block p-4 py-2 lg:py-0 text-white hover:bg-blue-400 lg:hover:bg-transparent"
             >
               Produk Kami
             </a>
             <a
               href="/article"
-              className="block p-4 py-2 lg:py-0 text-white hover:bg-blue-400"
+              className="block p-4 py-2 lg:py-0 text-white hover:bg-blue-400 lg:hover:bg-transparent"
             >
               Artikel
             </a>
             <a
               href="/about"
-              className="block p-4 py-2 lg:py-0 text-white hover:bg-blue-400"
+              className="block p-4 py-2 lg:py-0 text-white hover:bg-blue-400 lg:hover:bg-transparent"
             >
               Tentang Kami
             </a>
